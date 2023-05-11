@@ -1,0 +1,32 @@
+.redactor-editor h1, .redactor-editor h2, .redactor-editor h3,
+.redactor-editor h4, .redactor-editor h5, .redactor-editor h6 {
+	font-family: Arial;
+	color: #000;
+}
+.redactor-editor {
+	font-family: Arial;
+	color: #000;
+}
+.redactor-toolbar {
+	background: #313e3e;
+}
+.redactor-toolbar li a {
+	color: #fff;
+}
+.redactor-toolbar li a:hover {
+	background: #93a8a8;
+	color: #313e3e;
+}
+.redactor-toolbar li a:active,
+.redactor-toolbar li a.redactor-act {
+    background: #93a8a8;
+    color: #313e3e;
+}
+#redactor-modal footer {
+	background: none;
+	height: auto;
+	padding: 0;
+}
+#redactor-droparea-placeholder input[type="file"] {
+	display: inline;
+}

@@ -1,0 +1,61 @@
+/* Only demo */
+@media (max-width: 1000px) {
+  .welcome-message {
+    display: none;
+  }
+}
+
+span.label.recaida {
+    color: #fff;
+    background-color: #882929;
+}
+
+span.label.tumor-primario {
+    color: #fff;
+    background-color: #433B7D;
+}
+
+span.label.tumor-metastasis {
+    color: #fff;
+    background-color: #734E8A;
+}
+
+span.label.tumor-recaida {
+    color: #fff;
+    background-color: #882929;
+}
+
+.patient-menu {
+    background-color:#fff;
+    border-bottom: 1px solid #e7eaec !important;
+
+    &.nav {
+        li {
+            
+
+            a {
+                padding: 9px 15px 9px 15px;
+                border-radius: 0;
+                border-right:1px solid #ccc;
+                // border-bottom:1px solid #ccc;
+                // border: 1px solid #ccc;
+                color:#222;
+
+                // &:after {
+                //     content: ' | ';
+                // }
+            }
+
+            &.active {
+                border:0;
+                
+                a {
+                    border-radius:5px;
+                    color:#fff;
+                }
+            }
+
+
+        }
+    }
+}
